@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+} 
+body{
+    background-color: aquamarine;
+}
+
+.main{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background: linear-gradient(to top right,rgb(16, 165, 36),rgb(51, 37, 247));
+    width: 500px;
+    height: 300px;
+    transform: translate(-50%,20%);
+    border: 3px solid rgb(85, 7, 148);
+    border-radius: 10px;
+    box-shadow: 8px 8px 15px rgb(117, 24, 117);
+    padding: 10px;
+}
+
+h1{
+    color:#fff;
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 4vw;
+    margin : 2px;
+}
+  
+#long_Url{
+    position: relative;
+    top: 10%;
+    left: 10%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#shortener{
+    position: relative;
+    top: 10%;
+    left: 12%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: purple;
+}
+
+#shortener:hover{
+    background-color: rgb(190, 40, 173);
+}
+
+#short_Url{
+    position: relative;
+    top: 16%;
+    left: 10%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}  
+
+#copy{
+    position: relative;
+    top: 16%;
+    left: 0%;
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: purple;
+}
+
+#copy:hover{
+    background-color: rgb(190, 40, 173);
+}
+
+.credit {
+    position: relative;
+    color: #ffffff;
+    font-weight: 800;
+    top: 25%;
+    left: 10%;
+    margin-top: 10px;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+}
